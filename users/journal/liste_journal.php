@@ -31,7 +31,10 @@ if (filter_var($_GET['parcelle_id'], FILTER_VALIDATE_INT))
 	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/assets/pages/css/style.css">
-    <link rel="stylesheet" href="/assets/pages/css/desktop.css"
+ 
+    <link rel="stylesheet" href="/assets/pages/css/desktop.css">
+ 
+ 
     <script src="/assets/js/popupListe.js" defer></script>
 	<title>Document</title>
 </head>
@@ -53,7 +56,9 @@ if (filter_var($_GET['parcelle_id'], FILTER_VALIDATE_INT))
 	foreach ($journaux as $journal)
 	{
 		$date = date('d/m', $journal['journal_date']);
+ 
 		?>
+ 
 	<article class="" data-type="head">
         <div class="journalTitre">
             <h3><?= $date ?></h3>
@@ -66,8 +71,10 @@ if (filter_var($_GET['parcelle_id'], FILTER_VALIDATE_INT))
             <div class="boutonMain" data-type="button"><p>Supprimer</p></div>
         </div>
         <div class="journalButtonsMasquer" data-type="content">
+ 
             <a class="boutonMain" href="supp_journal.php?journal=<?= $journal['journal_id'] ?>&parcelle=<?= $parcelle
             ?>"><p>Oui</p></a>
+ 
             <div class="boutonMain" data-type="retour"><p>Non</p></div>
         </div>
     </article>
@@ -77,8 +84,10 @@ if (filter_var($_GET['parcelle_id'], FILTER_VALIDATE_INT))
 
 	<article>
 		<a href="ajout_journal.php?parcelle_id=<?= $parcelle ?>">
+ 
             <div class="boutonMain"><p>Ajouter un évènement</div>
             <div class="boutonMain"><p>Retour</p></div>
+ 
 		</a>
 	</article>
 

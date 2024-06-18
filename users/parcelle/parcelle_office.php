@@ -20,16 +20,28 @@ $parcelles = $query->fetchAll(PDO::FETCH_ASSOC);
 	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="/assets/pages/css/temp.css">
-
+ 
+    <link rel="stylesheet" href="/assets/pages/css/style.css">
+ 
     <script src="/assets/js/popup.js" defer></script>
 	<title>Document</title>
 </head>
 <body>
+ 
+<?php
+        require('../../assets/pages/menu.php')
+    ?>
+<main class="fondo">
+<div>
+                <div class="hero heroco">
+					<h2>Gestion de vos parcelles</h2>
+                    <img style=" margin: 2vh -4vh -1vh 0; width: 40%;" src="/assets/img/P6.svg" alt="illustration d'une fille" class="perso">
+                </div>
+            </div>
+<div class="blockblanc">
 
-<main>
-
-    <h1>Gestion de vos parcelles</h1>
+   
+ 
 
 <section id="containerData">
 	<?php
@@ -83,7 +95,9 @@ $parcelles = $query->fetchAll(PDO::FETCH_ASSOC);
 	</article>
 
 </section>
-
+ 
+</div>
+ 
 </main>
 
 </body>

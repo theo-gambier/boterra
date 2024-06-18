@@ -20,13 +20,25 @@ $jardins = $query->fetchAll(PDO::FETCH_ASSOC);
 	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="/assets/pages/css/temp.css">
+ 
+    <link rel="stylesheet" href="/assets/pages/css/style.css">
+ 
 
 	<title>Document</title>
 </head>
 <body>
 
-<main>
+ 
+ 
+<main class="fondvio">
+<div>
+                <div class="hero heroco">
+                    <h2 class="space"><strong>Mes jardins</strong></h2>
+                     <img style=" margin: 2vh 0 -1vh 0; width: 40%;" src="/assets/img/P5.svg" alt="illustration d'une fille" class="perso">
+                </div>
+            </div>
+<div class="blockblanc">
+ 
 
 <h1>Mes jardins</h1>
 
@@ -63,7 +75,13 @@ if (count($jardins) <= 0)
         <a href="ajout_jardin.php">Ajouter un jardin</a>
     </article>
 </section>
+ 
+</div>
 
+<?php
+    require('../../assets/pages/menu.php')
+?>
+ 
 </main>
 
 </body>

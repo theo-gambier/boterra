@@ -9,12 +9,14 @@
     <title>Document</title>
 </head>
 <body>
-<main class="fondv">
+ 
+<main class="fondo">
             <div>
                 <div class="hero heroco">
-                    <h2 class="space"><strong>Connectez vous!</strong></h2>
+                    <h2 class="space"><strong>Inscrivez vous!</strong></h2>
                    
-                    <img src="/assets/img/illus.svg" alt="illustration d'une fille" class="perso">
+                    <img src="/assets/img/P3.svg" alt="illustration d'une fille" class="perso">
+ 
                 </div>
             </div>
             <div class="blockblanc"> 

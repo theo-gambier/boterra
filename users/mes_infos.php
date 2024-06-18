@@ -27,13 +27,18 @@ $user= $query->fetch(PDO::FETCH_ASSOC);
 
 <section class="blockblanc containerMesInfo">
 	<article class="articleMesInfo">
-		<h3>Pseudo : </h3>
+ 
+		<h3>Pseudo </h3>
 		<p><?= $user['user_pseudo'] ?></p>
 	</article>
 	<article class="articleMesInfo">
-		<h3>Mail : </h3>
+		<h3>Mail </h3>
         <p><?= $user['user_mail'] ?></p>
 	</article>
+	<a class="boutonMain" href="modif_profil.php">
+			<p>Modifier mes informations</p>
+	</a>
+ 
 	<article></article>
 
 
@@ -43,9 +48,8 @@ $user= $query->fetch(PDO::FETCH_ASSOC);
                 Retour
             </p>
         </a>
-		<a class="boutonMain" href="modif_profil.php">
-			<p>Modifier mes informations</p>
-		</a>
+ 
+ s
 
 	</article>
 </section>

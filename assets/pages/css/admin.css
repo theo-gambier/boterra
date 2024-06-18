@@ -11,6 +11,7 @@ body {
 }
 
 /* Main admin */
+<<<<<<< HEAD
 
 main {
     border-radius: 25px 25px 0 0;
@@ -22,6 +23,9 @@ main {
     padding: 5dvh 10dvw;
 }
 
+=======
+ 
+>>>>>>> 088bad1 (headers-img-styles)
 h1 {
     width: 100%;
     text-align: center;

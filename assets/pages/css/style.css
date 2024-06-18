@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+@import url('temp.css');
+@import url('desktop.css');
+@import url('admin.css');
+>>>>>>> 088bad1 (headers-img-styles)
 *{
     margin: 0%;
     padding: 0%;
@@ -9,10 +15,17 @@
     --col-vertF : #45B771;
     --col-violet : #8F00FF;
     --col-orange : #FFA04C;
+<<<<<<< HEAD
 
 
 }
 
+=======
+}
+p {
+    font-size: 16px;
+}
+>>>>>>> 088bad1 (headers-img-styles)
 /* classe globale */
 .row{
     display: flex;
@@ -96,7 +109,11 @@ a{
     padding: 0.5rem 2rem;
     border-radius: 25px;
     box-shadow: #2c2c2c 0 1px 5px;
+<<<<<<< HEAD
     margin: 10% auto;
+=======
+    margin: 3% auto;
+>>>>>>> 088bad1 (headers-img-styles)
     border: none;
     color: white;
 }
@@ -104,7 +121,11 @@ a{
 .boutonMain p {
     color: white;
     font-weight: bold;
+<<<<<<< HEAD
     font-size: 20px;
+=======
+    font-size: 16px;
+>>>>>>> 088bad1 (headers-img-styles)
 }
 
 
@@ -192,7 +213,11 @@ nav.row.center.acenter.space-around a {
 }
 
 .hero img{
+<<<<<<< HEAD
     margin: 2vh 0 4vh 0;
+=======
+    margin: 2vh 0 0vh 0;
+>>>>>>> 088bad1 (headers-img-styles)
 }
 
 .heracc{
@@ -369,7 +394,23 @@ nav{
 /* page connexion */
 
 .fondv{
+<<<<<<< HEAD
     background-color: #45B771;
+=======
+    background-color: var(--col-vertF);
+    min-height: 100vh;
+    padding: 0;
+}
+
+.fondvio{
+    background-color: var(--col-violet);
+    min-height: 100vh;
+    padding: 0;
+}
+
+.fondo{
+    background-color: var(--col-orange);
+>>>>>>> 088bad1 (headers-img-styles)
     min-height: 100vh;
     padding: 0;
 }
@@ -423,11 +464,15 @@ nav{
     bottom: 50px;
 }
 
+<<<<<<< HEAD
 .fondvi{
     background-color: #8F00FF;
     min-height: 100vh;
     padding: 0;
 }
+=======
+
+>>>>>>> 088bad1 (headers-img-styles)
 
 /* formulaire */
 
@@ -497,16 +542,33 @@ nav{
 }
 
 .containerMesInfo {
+<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     row-gap: 10px;
 
+=======
+ 
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        padding-top: 15%;
+ 
+>>>>>>> 088bad1 (headers-img-styles)
 }
 
 .articleMesInfo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+<<<<<<< HEAD
+=======
+    /* border: 1px solid black; */
+    align-content: center;
+    padding: 5px 10px;
+    box-shadow: 0 0 3px 0 #000000a6;
+    border-radius: 10px;
+>>>>>>> 088bad1 (headers-img-styles)
 }
 
 .articleMesInfo h3 {

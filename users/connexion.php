@@ -6,6 +6,7 @@
             content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="../assets/pages/css/style.css">
+ 
         <link rel="stylesheet" href="../assets/pages/css/desktop.css">
         <title>Boterra</title>
     </head>
@@ -14,16 +15,20 @@
     require_once('../assets/pages/menu.php')
     ?>
         <main class="fondv formulaireCoInsDesktop">
+ 
+ 
             <div>
                 <div class="hero heroco">
                     <h2 class="space"><strong>Connectez vous!</strong></h2>
                    
-                    <img src="/assets/img/illus.svg" alt="illustration d'une fille" class="perso">
+ 
+                    <img src="/assets/img/P1.svg" alt="illustration d'une fille" class="perso">
                 </div>
             </div>
-            <div class="blockblanc containerFormCoIns">
+            <div class="blockblanc">
                 <div class="formulaire">    
-                    <form action="verif_connexion.php" method="post" class="column space between">
+                    <form action="verif_connexion.php" method="post" class="column space between"   >
+ 
                         <div class="infocase column"> 
                             <label for="email">Email</label>
                             <input id="email" type="email" name="user_mail" class="inputcache">
@@ -39,15 +44,19 @@
                                 </span>
                             </p>
                         </div>
-                        <input type="submit" placeholder="Connexion" class="boutonMain ">
+ 
+                        <input type="submit" placeholder="Connexion" class="boutonMain">
                     </form>
                 </div>
             </div>
-
+            <?php
+                require_once('../assets/pages/menu.php')
+            ?>
         </main>
-    <?php
+        <?php
         require_once '../assets/pages/footer.php'
     ?>
+ 
         <script>
             document.querySelectorAll('.infocase').forEach(function(caseDiv) {
                 caseDiv.addEventListener('click', function() {

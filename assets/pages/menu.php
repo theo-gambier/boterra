@@ -4,8 +4,11 @@
         <div id="maDiv"  class="">
             <a href="/users/contact.php">Contact</a>
             <a href="/admin/admin_office.php">Admin</a>
+ 
             <a href="/users/mentions.php" class="desktopIgnore">Mentions légales</a>
             <a href="/users/deconnexion.php">Déconnexion</a>
+ 
+ 
         </div>
         <a href="/index.php"><img src="/assets/img/home.svg" alt="pictogramme de l'accueil"></a>
         <?php

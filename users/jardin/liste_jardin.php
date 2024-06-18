@@ -32,7 +32,10 @@ foreach ($jardins as $jardin)
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.Default.css">
     <link rel="stylesheet" href="../../assets/pages/css/style.css">
+ 
     <link rel="stylesheet" href="../../assets/pages/css/desktop.css">
+ 
+ 
 
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js" defer></script>
@@ -41,8 +44,10 @@ foreach ($jardins as $jardin)
         let jardins = <?= json_encode($jardins) ?>;
         let parcelles = <?= json_encode($tabParcelles) ?>;
     </script>
+ 
     <script src="/assets/js/map.js" defer></script>
     <script src="/assets/js/popupListe.js" defer></script>
+ 
 	<title>Document</title>
     <style>
         *{
@@ -55,8 +60,10 @@ foreach ($jardins as $jardin)
 
         /* Taille de la carte */
         #mapid {
+ 
             width: 100%;
             height: 60vh;
+ 
             margin: 10px auto;
         }
 
@@ -148,10 +155,12 @@ foreach ($jardins as $jardin)
                 <div class="hero heroco">
                     <h2 class="space"><strong>Nos jardins</strong></h2>
                     <p>Découvrez nos jardins haut en couleur!</p>
-                    <img style=" margin: 2vh 0 -1vh 0; width: 40%;" src="../../assets/img/Perso-jardin.svg" alt="illustration d'une fille" class="perso">
+ 
+                    <img style=" margin: 2vh -4vh -1vh 0; width: 40%;" src="/assets/img/P4.svg" alt="illustration d'une fille" class="perso">
                 </div>
             </div>
-            <div class="blockblanc">
+<div class="blockblanc">
+ 
 <section id="sectionCard">
 	<?php
 	foreach ($jardins as $jardin)
@@ -208,7 +217,9 @@ foreach ($jardins as $jardin)
 	                    }
 	                    ?>
                     </select>
-                    <input type="submit">
+ 
+                    <div class="boutonMain" data-type="retour"><p>Annuler</p></div>
+                     <input type="submit">
                 </form>
             </div>
                 <?php
@@ -224,6 +235,9 @@ foreach ($jardins as $jardin)
 <div id="mapid"></div>
 
 </main>
-
+ 
+<script src="/assets/js/map.js" defer></script>
+<script src="/assets/js/popupListe.js" defer></script>
+ 
 </body>
 </html>

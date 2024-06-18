@@ -22,17 +22,17 @@
                 <div class="block1 column center acenter">
                     <a href="./jardin/jardin_office.php ">
                         <div class="navblock row">
-                            <div class="center acenter"> <h3>Mes jardins</h3> <img src="../assets/img/vegebowl.png" alt=""></div>
+                            <div class="center acenter"> <h3 style="color:white;">Mes jardins</h3> <img src="../assets/img/vegebowl.png" alt=""></div>
                         </div>
                     </a>
                     <a href="./parcelle/parcelle_office.php">
                         <div class="navblock row">
-                            <div class="center acenter"> <h3>Mes parcelles empruntées</h3><img src="../assets/img/vegebowl.png" alt=""></div>
+                            <div class="center acenter"> <h3 style="color:white;">Mes parcelles empruntées</h3><img src="../assets/img/vegebowl.png" alt=""></div>
                         </div>
                     </a>
                     <a href="mes_infos.php">
                         <div class="navblock row">
-                            <div class="center acenter"><h3>Mes informations</h3> <img src="../assets/img/vegebowl.png" alt=""></div>
+                            <div class="center acenter"><h3 style="color:white;">Mes informations</h3> <img src="../assets/img/vegebowl.png" alt=""></div>
                         </div>
                     </a>
                 </div>

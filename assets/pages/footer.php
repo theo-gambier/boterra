@@ -1,3 +1,4 @@
+ 
 <footer>
 	<img src="/assets/img/logoFooter.svg" alt="Logo de Boterra">
 	<div>
@@ -10,3 +11,4 @@
 		<p>2024 Boterra</p>
 	</div>
 </footer>
+ 
