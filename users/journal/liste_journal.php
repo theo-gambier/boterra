@@ -31,6 +31,7 @@ if (filter_var($_GET['parcelle_id'], FILTER_VALIDATE_INT))
 	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/assets/pages/css/style.css">
+    <link rel="stylesheet" href="/assets/pages/css/desktop.css"
     <script src="/assets/js/popupListe.js" defer></script>
 	<title>Document</title>
 </head>
@@ -76,8 +77,8 @@ if (filter_var($_GET['parcelle_id'], FILTER_VALIDATE_INT))
 
 	<article>
 		<a href="ajout_journal.php?parcelle_id=<?= $parcelle ?>">
+            <div class="boutonMain"><p>Ajouter un évènement</div>
             <div class="boutonMain"><p>Retour</p></div>
-			<div class="boutonMain"><p>Ajouter un évènement</div>
 		</a>
 	</article>
 

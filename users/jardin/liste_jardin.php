@@ -32,6 +32,7 @@ foreach ($jardins as $jardin)
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.Default.css">
     <link rel="stylesheet" href="../../assets/pages/css/style.css">
+    <link rel="stylesheet" href="../../assets/pages/css/desktop.css">
 
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js" defer></script>
@@ -54,8 +55,8 @@ foreach ($jardins as $jardin)
 
         /* Taille de la carte */
         #mapid {
-            width: 90%;
-            height: 30%;
+            width: 100%;
+            height: 60vh;
             margin: 10px auto;
         }
 

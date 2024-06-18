@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/assets/pages/css/style.css">
     <link rel="stylesheet" href="/assets/pages/css/desktop.css">
-    <title>Document</title>
+    <title>Boterra</title>
 </head>
 <body>
 <main>
@@ -104,6 +104,10 @@
         <h2 class="space call-title"><strong>Rejoignez nous<br>dès maintenant !</strong></h2>
         <a href="users/inscription.php"><div class="boutoninsc"><h2>INSCRIPTION</h2></a></div>
     </div>
+
+    <?php
+        require_once 'assets/pages/footer.php'
+    ?>
 </main>
 </body>
 </html>
