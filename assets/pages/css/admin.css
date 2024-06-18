@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #45B771;
+    position: relative;
+}
+
+/* Main admin */
+ 
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+/*stats admin*/
+
+#containerStats {
+    display: flex;
+    flex-direction: column;
+}
+
+#containerStats article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    margin: 10px 0;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+#containerStats h3 {
+    max-width: 75%;
+}
+
+#containerStats h3, #containerStats p {
+    font-size: 20px;
+    padding: 5px;
+}
+
+/*fin stats admin*/
+/*nav admin*/
+
+#navAdmin {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#navAdmin a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 75px;
+    background-color: #8F00FF;
+    color: white;
+    margin: 10px 0;
+}
+
+/*fin nav admin*/
+
+/*liste infos*/
+
+#containerData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.articleData {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    max-width: 600px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 7px;
+}
+
+.articleData h3, .articleData p {
+    text-align: center;
+    margin: 5px 0;
+}
+
+
+.articleData div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.articleData div a {
+    color: #8F00FF;
+    text-decoration: none;
+}
+
+/*fin liste infos*/
+
+/*lien bas page*/
+
+#containerLinks {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+#containerRetour {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+#containerLinks a, #containerRetour a {
+    width: fit-content;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #8F00FF;
+    color: white;
+    border-radius: 5px;
+}
+
+/*fin lien bas page*/
+
+/*formulaires*/
+
+#formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.containerLabelInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 300px;
+    max-width: 40dvw;
+    margin: 5px 0;
+}
+
+.containerLabelInput input[type=number] {
+    max-width: 60px;
+}
+
+.containerLabelInput textarea {
+    height: 100px;
+}
+
+#containerLinks input[type=submit] {
+    border: none;
+    border-radius: 5px;
+    background-color: #8F00FF;
+    color: white;
+    padding: 15px;
+}
+
+/*fin formulaire*/
+
+/*parcelles*/
+
+.libre {
+    color: #45B771;
+}
+
+.demande {
+    color: darkorange;
+}
+
+.reserve {
+    color: red;
+}
+
+.containerLinksParcelles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.containerLinksParcelles a {
+    margin: 4px 13px;
+}
+
+/*fin parcelles*/
+
+/*journal*/
+
+.articleJournaux {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 300px;
+    max-width: 600px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 7px;
+}

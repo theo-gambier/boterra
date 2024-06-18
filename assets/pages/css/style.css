@@ -1,0 +1,546 @@
+@import url('temp.css');
+@import url('desktop.css');
+@import url('admin.css');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:franklin gothic , Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --col-vertC : #A4FFAD;
+    --col-vertF : #45B771;
+    --col-violet : #8F00FF;
+    --col-orange : #FFA04C;
+}
+p {
+    font-size: 16px;
+}
+/* classe globale */
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.acenter{
+    align-items: center;
+}
+
+main{
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 0 8vw;
+    padding-bottom: 15vh;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+h2{
+    font-size: xx-large;
+}
+
+p{
+    font-size: x-large;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nowrap{
+    flex-wrap: nowrap;
+}
+
+.space{
+    margin-bottom: 5vh;
+}
+
+/* classe personnalisé */
+
+.infoJardin{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 5%;
+}
+
+.infoJardin p {
+    padding: 4px 10px;
+    box-shadow: 0 1px 4px 0 rgb(121, 121, 121);
+    border-radius: 6px;
+    min-width: 50px;
+    text-align: center;
+    font-size: 16px;
+    margin: 15px 0 0 0;
+}
+
+.boutonMain {
+    background-color: #8F00FF;
+    width: fit-content;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    box-shadow: #2c2c2c 0 1px 5px;
+    margin: 3% auto;
+    border: none;
+    color: white;
+}
+
+.boutonMain p {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+#sectionCard article {
+    background-color: white;
+    box-shadow: 0 0 10px 0 #c7c7c7;
+    width: 100%;
+    
+    border-radius: 20px;
+    margin: 0 0 2rem 0;
+}
+
+#sectionCard article .imgDiv{
+    width: 100%;
+    height: 111px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+    background-color: #45B771;
+}
+
+#sectionCard article .text{
+    padding: 5% 5%;
+}
+
+#maDiv{
+    position: absolute;
+    bottom: 100%;
+    right: -50%;
+    width: 25vw;
+    height: fit-content;
+    background-color: white;
+    transition: 0.5s;
+    z-index: 0;
+    border: 1px solid black;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+}
+
+.visible{
+    right: 6%!important;
+}
+
+.masquer {
+    display: none;
+}
+
+.popupListe {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.popupListe form {
+
+}
+
+#photoProfil {
+    width: 50%;
+    height: 50%;
+    border: 1px black solid;
+    border-radius: 5rem;
+    overflow: hidden;
+}
+
+nav.row.center.acenter.space-around a {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+/* hero */
+
+
+
+.hero{
+    padding: 4vh 0;
+   
+}
+
+.hero img{
+    margin: 2vh 0 0vh 0;
+}
+
+.heracc{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* premier block */
+
+.block1{
+    height: 70vh;
+    margin-bottom: 5vh;
+}
+
+.block1 a{
+    width: 100%;
+}
+
+.navblock{
+    width: 100%;
+    height: 20vh;
+    background-color: #45B771;
+    margin-bottom: 2vh;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.navblock div {
+    padding: 0 0 0 1rem;
+}
+
+.navblock h2{   
+    color: white;
+    width: 70%;
+}
+
+/* menu */
+
+
+.nav{
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    height: 10vh;
+    background-color: white;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+
+    border: 1px solid black;
+    width: 100vw;
+    left: 0;
+}
+
+nav{
+    height: 10vh;
+    width: 75vw;
+}
+
+/* deuxième block */
+
+.block2 div div p{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    justify-content: center;
+}
+
+.qualitec{
+    width: 38vw;
+    height: 38vw;
+    background-color: #FFA04C;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 8vw;
+    position: relative;
+}
+
+.qualitec p{
+    height: 33vw;
+    width: 33vw;
+
+}
+
+.qualitec p::before {
+    content: "";
+    background-image: url(../../img/Soleil.svg);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    
+    position: absolute;
+    top: 20%;
+    right: 14%;
+}
+
+.qualiteb{
+    width: 80vw;
+}
+
+.casepaire{
+    width: 50%;
+    background-color: #A4FFAD;
+    height: 33vw;
+    border-radius: 0px 15px 15px 15px;
+    font-size: medium;
+    text-align: center;
+}
+
+
+/* Troisième block */
+.caseimpaire{
+    width: 50%;
+    background-color: #8F00FF;
+    height: 33vw;
+    border-radius: 15px 0px 15px 15px;
+    font-size: medium;
+    text-align: center;
+}
+
+.chiffre{
+    background-color: black;
+    color: white;
+    width: auto;
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-bottom: 1vh;
+}
+
+.casevide1{
+    width: 50%;
+    height: 33vw;
+    position: relative;
+}
+
+.casevide2{
+    width: 50%;
+    height: 33vw;
+    position: relative;
+}
+
+.casevide1 img{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.casevide2 img{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* quatrième block */
+.block4 h2{
+    text-align: center;
+}
+
+.boutoninsc{
+    padding: 2vh;
+    background-color: #8F00FF;
+    border-radius: 25px;
+    color: white;
+    box-shadow: black 1px 1px 5px;
+}
+
+.boutoninsc h2{
+    color: white;
+}
+
+/* page connexion */
+
+.fondv{
+    background-color: var(--col-vertF);
+    min-height: 100vh;
+    padding: 0;
+}
+
+.fondvio{
+    background-color: var(--col-violet);
+    min-height: 100vh;
+    padding: 0;
+}
+
+.fondo{
+    background-color: var(--col-orange);
+    min-height: 100vh;
+    padding: 0;
+}
+
+.heroco{
+    color: white;
+    height: 30vh;
+    padding: 0 8vw;
+    padding-top: 4vh;
+    position: relative;
+}
+
+.heroco h2, .heroco p{
+    width: 50vw;
+}
+
+.heroco p{
+    font-size: medium;
+}
+
+.blockblanc{
+    background-color: white;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    min-height: 65vh;
+    width: 100vw;
+    padding: 10vh 15vw;
+    padding-top: 2vh;
+    box-sizing: border-box;
+}
+
+.perso{
+    position: absolute;
+    right: 20px;
+    bottom: -10px;
+}
+
+/* inscription */
+
+.fondo{
+    background-color: #FFA04C;
+    min-height: 100vh;
+    padding: 0;
+}
+
+/* profil */
+
+.pp{
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+}
+
+
+
+/* formulaire */
+
+.infocase{
+    border: black solid 1px;
+    padding: 5vh;
+    border-radius: 24px;
+    margin-top: 5vh;
+    cursor: pointer;
+}
+
+.inputcache{
+    display: none;
+}
+
+#mainAjoutJardin {
+    height: 100%;
+    padding: 10vh 0 0 0;
+}
+
+.formAjout {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.boutonSubmit  {
+    background-color: #8F00FF;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.6rem;
+}
+
+.sectionJournal {
+    display: flex;
+    flex-direction: column;
+}
+
+.journalTitre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.journalButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.journalButtonsMasquer {
+    display: none;
+    flex-direction: row;
+}
+
+.articleGestionParcelles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divGestionParcelles {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.containerMesInfo {
+ 
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        padding-top: 15%;
+ 
+}
+
+.articleMesInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    align-content: center;
+    padding: 5px 10px;
+    box-shadow: 0 0 3px 0 #000000a6;
+    border-radius: 10px;
+}
+
+.articleMesInfo h3 {
+    width: fit-content;
+}
+
+.containerMentions {
+    display: flex;
+    flex-direction: column;
+    column-gap: 100px;
+}
+
+#containerMentions article {
+    margin: 20px auto;
+}
+
+#containerMentions article p {
+    font-size: 16px;
+}

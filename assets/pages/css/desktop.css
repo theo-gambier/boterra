@@ -1,0 +1,83 @@
+.arrow-home {
+    display: none;
+}
+
+@media (min-width: 720px) {
+    .main-garden {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .arrow-home {
+        display: block;
+        margin-top: 50px !important;
+    }
+
+    .why-title {
+        font-weight: bold;
+    }
+
+    .why-card {
+        width: 300px;
+        height: 250px;
+    }
+
+    .why-card p {
+        font-weight: bold;
+    }
+
+    .how-title {
+        font-weight: bold;
+    }
+
+    .how-container {
+        display: flex !important;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 250px;
+    }
+
+    .nav {
+        position: static;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #photoProfil {
+        width: 40px;
+    }
+
+    .heracc {
+        font-size: 24px;
+    }
+
+    .casepaire {
+        width: 300px;
+        height: 300px;
+    }
+
+    .caseimpaire {
+        width: 300px;
+        height: 300px;
+    }
+
+    .casevide1 {
+        height: auto;
+        margin-left: 20px;
+    }
+
+    .casevide1 img {
+        width: 45px;
+    }
+
+    .casevide2 {
+        height: auto;
+        margin-right: 20px;
+    }
+
+    .casevide2 img {
+        width: 45px;
+    }
+
+}

@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #45B771;
+    position: relative;
+}
+
+/* Main admin */
+
+main {
+ 
+    background-color: white;
+    position: absolute;
+   
+    width: 100dvw;
+    min-height: 10dvh;
+    padding: 5dvh 10dvw;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+/*stats admin*/
+
+#containerStats {
+    display: flex;
+    flex-direction: column;
+}
+
+#containerStats article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    margin: 10px 0;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+#containerStats h3 {
+    max-width: 75%;
+}
+
+#containerStats h3, #containerStats p {
+    font-size: 20px;
+    padding: 5px;
+}
+
+/*fin stats admin*/
+/*nav admin*/
+
+#navAdmin {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#navAdmin a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 75px;
+    background-color: #8F00FF;
+    color: white;
+    margin: 10px 0;
+}
+
+/*fin nav admin*/
+
+/*liste infos*/
+
+#containerData {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.articleData {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    min-width: 200px;
+    max-width: 600px;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.articleData h3, .articleData p {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.articleData img {
+    width: 100%;
+    margin: 0 0 10px 0;
+    border-radius: 15px 15px 0 0;
+}
+
+
+.articleData div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.articleData div a {
+    color: #8F00FF;
+    text-decoration: none;
+    text-align: center;
+    margin: 4px 0;
+}
+
+/*fin liste infos*/
+
+/*lien bas page*/
+
+ 
+ 
+
+.containerLinks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10%;
+}
+
+#containerRetour {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.containerLinks a,.containerLinks button, #containerRetour a {
+    width: fit-content;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #8F00FF;
+    color: white !important;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5% 0;
+    border: none;
+}
+
+/*fin lien bas page*/
+
+/*formulaires*/
+
+#formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.containerLabelInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 300px;
+    max-width: 40dvw;
+    margin: 5px 0;
+}
+
+.containerLabelInput input[type=number] {
+    max-width: 60px;
+}
+
+.containerLabelInput textarea {
+    height: 100px;
+}
+
+.containerLinks input[type=submit] {
+    border: none;
+    border-radius: 5px;
+    background-color: #8F00FF;
+    color: white;
+    padding: 15px;
+}
+
+/*fin formulaire*/
+
+/*parcelles*/
+
+.containerLinksParcelles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.containerLinksParcelles a {
+    margin: 4px 13px;
+}
+
+/*fin parcelles*/
+
+/*journal*/
+
+.articleJournaux {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 300px;
+    max-width: 600px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 7px;
+}
+
+/*popup*/
+
+.masquer {
+    display: none !important;
+}
+
+.popup {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(48, 48, 48, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100dvw;
+    height: 90dvh;
+    border-radius: 25px 25px 0 0;
+}
+
+.containerPopup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 300px;
+    max-width: 600px;
+    min-height: 100px;
+    max-height: fit-content;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
