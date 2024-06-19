@@ -7,19 +7,12 @@
 
 body {
     background-color: #45B771;
-    position: relative;
+ 
 }
 
 /* Main admin */
 
-main {
-    border-radius: 25px 25px 0 0;
-    background-color: white;
-    top: 10dvh;
-    width: 100dvw;
-    min-height: 90dvh;
-    padding: 5dvh 10dvw;
-}
+
 
 h1 {
     width: 100%;

@@ -25,7 +25,7 @@
                     <img src="/assets/img/P1.svg" alt="illustration d'une fille" class="perso">
                 </div>
             </div>
-            <div class="blockblanc">
+            <div class="blockblanc wide">
                 <div class="formulaire">    
                     <form action="verif_connexion.php" method="post" class="column space between"   >
  

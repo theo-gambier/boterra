@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #45B771;
-    position: relative;
+ 
+    
 }
 
 /* Main admin */
@@ -17,7 +17,7 @@ main {
     background-color: white;
     position: absolute;
     top: 10dvh;
-    width: 100dvw;
+    width: auto;
     min-height: 90dvh;
     padding: 5dvh 10dvw;
 }

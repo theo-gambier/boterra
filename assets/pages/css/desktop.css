@@ -4,16 +4,57 @@
 
 @media (min-width: 720px) {
     main {
-        padding-bottom: 0;
+        padding:0;
+    }
+
+    .legumes{
+        background-image: url(../../img/legumess.svg);
+    }
+
+    .fondv{
+        background-color:  #ffffff00;
+        padding: 0;
+        min-height: 0;
+    }
+    
+    .fondvio{
+        background-color:  #ffffff00;
+        min-height: 0;
+        padding: 0;
+    }
+    
+    .fondo{
+        background-color:  #ffffff00;
+        min-height: 0;
+        padding: 0;
+    }
+    
+
+
+
+
+    .block1 {
+        padding: 5% 0;
+        margin-bottom: 5vh;
+        height: fit-content;
     }
 
     .blockblanc {
         padding: 2vw 1vw;
-        min-height: 10vh !important;
+        min-height: 60vh !important;
+        background-color: white;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+ 
+        width: auto;
+        
+        padding-top: 2vh;
+        box-sizing: border-box;
+
     }
 
-    .fondv {
-        min-height: 0;
+    .wide{
+        width: 80%;
     }
 
     .visible {
@@ -59,6 +100,7 @@
 
     .formulaireCoInsDesktop div {
         position: relative;
+        
     }
 
     .heroco {
@@ -88,22 +130,17 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 1vw;
+        justify-content: space-evenly;
     }
 
     .main-garden a {
-        width: fit-content;
+        width: 30%;
     }
 
     .navblock {
-        width: fit-content;
+        width: 100%;
     }
-
-    .main-garden {
-        display: flex;
-        flex-direction: row;
-        gap: 50px;
-    }
+ 
 
     .arrow-home {
         display: block;
@@ -126,18 +163,32 @@
     .how-title {
         font-weight: bold;
     }
-
+    .nav {
+        z-index: 1;
+        bottom: 0;
+        height: 10vh;
+        background-color: white;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+        border: 1px solid white;
+        position: static;
+        width: 85%;
+        margin: 3% auto;
+        border-radius: 60px !important;
+    
+    }
     .how-container {
         display: flex !important;
         flex-direction: column;
         gap: 20px;
-        padding: 0 250px;
+        width: 60%;
+        /* padding: 0 250px; */
     }
 
-    .nav {
-        position: static;
-        width: 100%;
-        border-radius: 0;
+
+
+    nav{
+        width: inherit;
     }
 
     #photoProfil {

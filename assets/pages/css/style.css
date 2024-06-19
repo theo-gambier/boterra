@@ -12,15 +12,82 @@
     --col-vertF : #45B771;
     --col-violet : #8F00FF;
     --col-orange : #FFA04C;
-<<<<<<< HEAD
+ 
 
 
 }
+ 
+
+@media (max-width: 720px) {
+    .nav{
+        z-index: 1;
+        position: fixed;
+        bottom: 0;
+        height: 10vh;
+        background-color: white;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+    
+        border: 1px solid black;
+        width: 100vw;
+        left: 0;
+    }
+
+    .fondv{
+        background-color: var(--col-vertF);
+        padding: 0;
+    }
+    
+    .fondvio{
+        background-color: var(--col-violet);
+     
+        padding: 0;
+    }
+    
+    .fondo{
+        background-color: var(--col-orange);
+     
+        padding: 0;
+    }
+
+    .blockblanc{
+        background-color: white;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+        min-height: 65vh;
+        width: auto;
+        padding: 5vh 10vw;
+        padding-top: 2vh;
+        box-sizing: border-box;
+    }
+    nav{    width: 80%;}
+    .visible {
+        bottom: 100% !important;
+        right: 5% !important;
+        z-index: 2 !important;
+    }
+    .heroco img {
+        position: absolute;
+        height: 70% !important;
+        bottom: -20px !important;
+        right: 10vw !important;
+        margin: 0 !important;
+    }
+    main {
+        border-radius: 25px 25px 0 0;
+        background-color: white;
+        top: 10dvh;
+        width: auto;
+        min-height: 90dvh;
+       
+    }
+}
+
 
 p {
     font-size: 16px;
 }
-/* classe globale */
+/* classe globaeeele */
 .row{
     display: flex;
     flex-direction: row;
@@ -40,12 +107,7 @@ p {
     align-items: center;
 }
 
-main{
-    width: 100vw;
-    box-sizing: border-box;
-    padding: 0 8vw;
-    padding-bottom: 15vh;
-}
+
 
 .wrap{
     flex-wrap: wrap;
@@ -80,6 +142,8 @@ a{
 }
 
 /* classe personnalisé */
+
+
 
 .infoJardin{
     display: flex;
@@ -154,9 +218,7 @@ a{
     row-gap: 5px;
 }
 
-.visible{
-    right: 6%!important;
-}
+
 
 .masquer {
     display: none;
@@ -175,7 +237,7 @@ a{
 }
 
 #photoProfil {
-    width: 50%;
+    width: 40px;
     height: 50%;
     border: 1px black solid;
     border-radius: 5rem;
@@ -247,24 +309,8 @@ nav.row.center.acenter.space-around a {
 /* menu */
 
 
-.nav{
-    z-index: 1;
-    position: fixed;
-    bottom: 0;
-    height: 10vh;
-    background-color: white;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
 
-    border: 1px solid black;
-    width: 100vw;
-    left: 0;
-}
-
-nav{
-    height: 10vh;
-    width: 75vw;
-}
+ 
 
 /* deuxième block */
 
@@ -382,22 +428,7 @@ nav{
 
 /* page connexion */
 
-.fondv{
-    background-color: var(--col-vertF);
-    padding: 0;
-}
 
-.fondvio{
-    background-color: var(--col-violet);
-    min-height: 100vh;
-    padding: 0;
-}
-
-.fondo{
-    background-color: var(--col-orange);
-    min-height: 100vh;
-    padding: 0;
-}
 
 .heroco{
     color: white;
@@ -405,6 +436,11 @@ nav{
     padding: 0 8vw;
     padding-top: 4vh;
     position: relative;
+}
+
+.heroco img{
+    width: 50%;
+    height: auto;
 }
 
 .heroco h2, .heroco p{
@@ -415,30 +451,12 @@ nav{
     font-size: medium;
 }
 
-.blockblanc{
-    background-color: white;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    min-height: 65vh;
-    width: 100vw;
-    padding: 10vh 15vw;
-    padding-top: 2vh;
-    box-sizing: border-box;
-}
 
-.perso{
-    position: absolute;
-    right: 20px;
-    bottom: -10px;
-}
+
 
 /* inscription */
 
-.fondo{
-    background-color: #FFA04C;
-    min-height: 100vh;
-    padding: 0;
-}
+ 
 
 /* profil */
 
@@ -448,19 +466,15 @@ nav{
     bottom: 50px;
 }
 
-.fondvi{
-    background-color: #8F00FF;
-    min-height: 100vh;
-    padding: 0;
-}
+ 
 
 /* formulaire */
 
 .infocase{
     border: black solid 1px;
-    padding: 5vh;
+    padding: 1vh 2vw;
     border-radius: 24px;
-    margin-top: 5vh;
+    margin-top: 2vh;
     cursor: pointer;
 }
 

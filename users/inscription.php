@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="../assets/pages/css/style.css">
     <title>Document</title>
 </head>
-<body>
+<body style="background: rgb(176,99,0);
+background: linear-gradient(90deg, rgba(176,99,0,1) 0%, rgba(255,130,0,1) 100%);">
 <?php
 require_once('../assets/pages/menu.php')
 ?>
-<main class="fondo formulaireCoInsDesktop">
+<main class="fondo legumes formulaireCoInsDesktop">
             <div>
                 <div class="hero heroco">
                     <h2 class="space"><strong>Inscrivez vous!</strong></h2>
@@ -21,7 +22,7 @@ require_once('../assets/pages/menu.php')
  
                 </div>
             </div>
-            <div class="blockblanc">
+            <div class="blockblanc wide">
                 <div class="formulaire">
                     <form action="verif_inscription.php" method="post" enctype="multipart/form-data" class="column space between">
                        <div class="infocase column">
