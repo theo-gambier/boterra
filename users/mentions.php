@@ -112,5 +112,9 @@
 	</article>
 </main>
 
+<?php
+    require_once '../assets/pages/footer.php'
+?>
+
 </body>
 </html>

@@ -48,10 +48,7 @@ $user= $query->fetch(PDO::FETCH_ASSOC);
                 Retour
             </p>
         </a>
- 
- s
-
-	</article>
+    </article>
 </section>
 
 </main>

@@ -55,6 +55,9 @@ require_once '../assets/pages/menu.php';
 </form>
 
 </main>
+<?php
+    require_once '../assets/pages/footer.php'
+?>
 </body>
 </html>
 

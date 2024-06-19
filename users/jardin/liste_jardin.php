@@ -34,9 +34,6 @@ foreach ($jardins as $jardin)
     <link rel="stylesheet" href="../../assets/pages/css/style.css">
  
     <link rel="stylesheet" href="../../assets/pages/css/desktop.css">
- 
- 
-
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js" defer></script>
     <script src="https://unpkg.com/leaflet.markercluster@1.3.0/dist/leaflet.markercluster.js" defer></script>
@@ -65,6 +62,7 @@ foreach ($jardins as $jardin)
             height: 60vh;
  
             margin: 10px auto;
+            z-index: 0;
         }
 
         /* Style du marqueur */
@@ -135,15 +133,7 @@ foreach ($jardins as $jardin)
             align-items: center;
         }
 
-        footer {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 50px;
-            width: 100vw;
-            position: absolute;
-            bottom: 0;
-        }
+
     </style>
 </head>
 <body>
@@ -196,6 +186,8 @@ foreach ($jardins as $jardin)
                 <p>
                     Vous arrivez trop tard, il n'y a plus de parcelle disponible dans ce jardin.
                 </p>
+                <div class="boutonMain" data-type="retour"><p>Retour</p></div>
+
             </div>
 			<?php
 		}else{
@@ -217,9 +209,9 @@ foreach ($jardins as $jardin)
 	                    }
 	                    ?>
                     </select>
- 
+                    <input class="boutonMain" type="submit">
+
                     <div class="boutonMain" data-type="retour"><p>Annuler</p></div>
-                     <input type="submit">
                 </form>
             </div>
                 <?php
@@ -238,6 +230,11 @@ foreach ($jardins as $jardin)
  
 <script src="/assets/js/map.js" defer></script>
 <script src="/assets/js/popupListe.js" defer></script>
+
+<?php
+    require_once '../../assets/pages/footer.php'
+?>
+
  
 </body>
 </html>

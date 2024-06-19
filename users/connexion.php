@@ -49,9 +49,7 @@
                     </form>
                 </div>
             </div>
-            <?php
-                require_once('../assets/pages/menu.php')
-            ?>
+
         </main>
         <?php
         require_once '../assets/pages/footer.php'

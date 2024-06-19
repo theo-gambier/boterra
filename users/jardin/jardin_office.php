@@ -28,6 +28,9 @@ $jardins = $query->fetchAll(PDO::FETCH_ASSOC);
 </head>
 <body>
 
+<?php
+require('../../assets/pages/menu.php')
+?>
  
  
 <main class="fondvio">
@@ -61,7 +64,7 @@ if (count($jardins) <= 0)
         <img src="/assets/img/upload/<?= $jardin['potager_photo'] ?>">
         <h3><?= $jardin['potager_adresse'] ?></h3>
         <p>Nombre de parcelles : <?= $jardin['potager_nb_parcelle'] ?></p>
-        <div>
+        <div class="containerBoutonsJardinOffice">
             <a href="confirm_annul.php?jardin= <?= $jardin['potager_id'] ?>">Annuler</a>
             <a href="gestion_parcelles_jardin.php?jardin=<?= $jardin['potager_id'] ?>">Parcelles en attentes de confirmation</a>
         </div>
@@ -71,18 +74,18 @@ if (count($jardins) <= 0)
 }
 ?>
     <article class="containerLinks">
-        <a href="../profil.php">Retour</a>
-        <a href="ajout_jardin.php">Ajouter un jardin</a>
+        <a class="boutonMain" href="../profil.php"><p>Retour</p></a>
+        <a class="boutonMain" href="ajout_jardin.php"><p>Ajouter un jardin</p></a>
     </article>
 </section>
  
 </div>
 
-<?php
-    require('../../assets/pages/menu.php')
-?>
- 
 </main>
+
+<?php
+    require_once '../../assets/pages/footer.php'
+?>
 
 </body>
 </html>

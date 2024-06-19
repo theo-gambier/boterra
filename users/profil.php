@@ -9,6 +9,9 @@
         <title>Document</title>
     </head>
     <body>
+    <?php
+    require('../assets/pages/menu.php')
+    ?>
         <main class="fondv">
             <div>
                 <div class="hero heroco">
@@ -37,9 +40,10 @@
                     </a>
                 </div>
             </div>
-            <?php
-                require('../assets/pages/menu.php')
-            ?>
+
         </main>
+    <?php
+        require_once '../assets/pages/footer.php'
+    ?>
     </body>
 </html>

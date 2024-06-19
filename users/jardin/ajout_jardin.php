@@ -15,11 +15,11 @@ session_start();
 </head>
 <body>
 
-<?php
-    require_once '../../assets/pages/menu.php';
-?>
-
 <main id="mainAjoutJardin" class="fondv">
+
+	<?php
+	require_once '../../assets/pages/menu.php';
+	?>
 
 <form action="valid_ajout.php" method="post" enctype="multipart/form-data" class="blockblanc formAjout">
     <label for="photo">Photo du potager :</label>
@@ -37,5 +37,10 @@ session_start();
     </div>
 </form>
 </main>
+
+<?php
+    require_once '../../assets/pages/footer.php'
+?>
+
 </body>
 </html>

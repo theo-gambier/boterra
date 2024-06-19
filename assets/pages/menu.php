@@ -4,7 +4,7 @@
         <div id="maDiv"  class="">
             <a href="/users/contact.php">Contact</a>
             <a href="/admin/admin_office.php">Admin</a>
- 
+            <a href="/users/apropos.php" class="desktopIgnore">A propos</a>
             <a href="/users/mentions.php" class="desktopIgnore">Mentions légales</a>
             <a href="/users/deconnexion.php">Déconnexion</a>
  

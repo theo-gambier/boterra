@@ -13,21 +13,11 @@ body {
 /* Main admin */
 
 main {
-<<<<<<< HEAD
     border-radius: 25px 25px 0 0;
     background-color: white;
-    position: absolute;
     top: 10dvh;
     width: 100dvw;
     min-height: 90dvh;
-=======
- 
-    background-color: white;
-    position: absolute;
-   
-    width: 100dvw;
-    min-height: 10dvh;
->>>>>>> 088bad1 (headers-img-styles)
     padding: 5dvh 10dvw;
 }
 
@@ -143,7 +133,6 @@ h1 {
 
 /*lien bas page*/
 
-<<<<<<< HEAD
 #containerLinks {
     display: flex;
     justify-content: space-evenly;
@@ -159,21 +148,13 @@ h1 {
     border-radius: 5px;
     border: none;
 }
-=======
- 
- 
->>>>>>> 088bad1 (headers-img-styles)
 
 .containerLinks {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
     min-width: 300px;
-=======
-  
->>>>>>> 088bad1 (headers-img-styles)
     width: 100%;
     margin: 0 auto;
     padding: 0 10%;
@@ -188,13 +169,7 @@ h1 {
 .containerLinks a,.containerLinks button, #containerRetour a {
     width: fit-content;
     text-decoration: none;
-<<<<<<< HEAD
-    padding: 15px;
-    background-color: #8F00FF;
-    color: white !important;
-    border-radius: 5px;
-    margin: 5px 10%;
-=======
+
     padding: 5px 10px;
     background-color: #8F00FF;
     color: white !important;
@@ -202,7 +177,6 @@ h1 {
     font-weight: bold;
     font-size: 15px;
     margin: 5% 0;
->>>>>>> 088bad1 (headers-img-styles)
     border: none;
 }
 

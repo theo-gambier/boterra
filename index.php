@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/assets/pages/css/style.css">
     <link rel="stylesheet" href="/assets/pages/css/desktop.css">
- 
+    <link rel="icon" href="assets/img/favicon.ico">
     <title>Boterra</title>
- 
+
 </head>
 <body>
 <main>

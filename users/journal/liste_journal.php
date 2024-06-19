@@ -82,17 +82,21 @@ if (filter_var($_GET['parcelle_id'], FILTER_VALIDATE_INT))
 	}
 	?>
 
-	<article>
-		<a href="ajout_journal.php?parcelle_id=<?= $parcelle ?>">
- 
-            <div class="boutonMain"><p>Ajouter un évènement</div>
-            <div class="boutonMain"><p>Retour</p></div>
- 
+	<article class="containerLinks">
+        <a href="../parcelle/parcelle_office.php" class="boutonMain"><p>Retour</p></a>
+
+		<a class="boutonMain" href="ajout_journal.php?parcelle_id=<?= $parcelle ?>">
+            <p>Ajouter un évènement</p>
 		</a>
+
 	</article>
 
 </section>
 
 </main>
+
+<?php
+    require_once '../../assets/pages/footer.php'
+?>
 </body>
 </html>

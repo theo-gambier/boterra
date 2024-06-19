@@ -3,7 +3,6 @@
 }
 
 @media (min-width: 720px) {
-<<<<<<< HEAD
     main {
         padding-bottom: 0;
     }
@@ -98,12 +97,12 @@
 
     .navblock {
         width: fit-content;
-=======
+    }
+
     .main-garden {
         display: flex;
         flex-direction: row;
         gap: 50px;
->>>>>>> 088bad1 (headers-img-styles)
     }
 
     .arrow-home {
@@ -177,9 +176,13 @@
         width: 45px;
     }
 
-<<<<<<< HEAD
+    #containerData {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     footer {
-        display: flex;
+        display: flex !important;
         justify-content: space-between;
         padding: 5vw;
 
@@ -205,6 +208,5 @@
     footer div p {
         text-align: center;
     }
-=======
->>>>>>> 088bad1 (headers-img-styles)
+
 }
