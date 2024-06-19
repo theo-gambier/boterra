@@ -17,9 +17,6 @@
     <h1>Ajouter un jardin</h1>
 
 <form action="valid_ajout.php" method="post" id="formulaire" enctype="multipart/form-data">
-    <div cl>
-
-    </div>
     <div class="containerLabelInput">
         <label for="adresse">Adresse :</label>
         <input id="adresse" type="text" name="potager_adresse">
