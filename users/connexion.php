@@ -10,11 +10,12 @@
         <link rel="stylesheet" href="../assets/pages/css/desktop.css">
         <title>Boterra</title>
     </head>
-    <body>
+    <body style="background: rgb(0,176,68);
+background: linear-gradient(90deg, rgba(0,176,68,1) 0%, rgba(0,255,134,1) 100%);">
     <?php
     require_once('../assets/pages/menu.php')
     ?>
-        <main class="fondv formulaireCoInsDesktop">
+        <main class="fondvio legumes formulaireCoInsDesktop">
  
  
             <div>

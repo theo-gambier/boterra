@@ -8,7 +8,8 @@
         <link rel="stylesheet" href="../assets/pages/css/style.css">
         <title>Document</title>
     </head>
-    <body>
+    <body style="background: rgb(78,19,124);
+background: linear-gradient(90deg, rgba(78,19,124,1) 0%, rgba(143,0,255,1) 100%);">
     <?php
     require('../assets/pages/menu.php')
     ?>

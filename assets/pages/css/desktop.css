@@ -38,7 +38,9 @@
         margin-bottom: 5vh;
         height: fit-content;
     }
-
+    .block1 a {
+        width: 50%;
+    }
     .blockblanc {
         padding: 2vw 1vw;
         min-height: 60vh !important;
@@ -100,7 +102,7 @@
 
     .formulaireCoInsDesktop div {
         position: relative;
-        
+
     }
 
     .heroco {
@@ -179,10 +181,13 @@
     }
     .how-container {
         display: flex !important;
-        flex-direction: column;
+        flex-direction: row;
         gap: 20px;
-        width: 60%;
+        width: 80%;
+        margin: auto;
         /* padding: 0 250px; */
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
 

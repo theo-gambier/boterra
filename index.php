@@ -64,17 +64,17 @@ background: linear-gradient(90deg, rgba(0,176,68,1) 0%, rgba(0,255,134,1) 100%);
         <div class="block3 space">
             <div class="space center row how-title"><p>Comment nous rejoindre ?</p></div>
             <div class="column how-container">
-                <div class="etape row nowrap">
+                <div class="etape row nowrap ">
                     <div class="casepaire column center acenter">
                         <div class="chiffre row center acenter">1</div>
                         <p><strong>S'INSCRIRE</strong></p>
                     </div>
-                    <div class="casevide1">
+                    <div class="casevide1 desktopIgnore ">
                         <img src="assets/img/Arrow-7.svg" alt="flèche">
                     </div>
                 </div>
                 <div class="etape row nowrap">
-                    <div class="casevide2">
+                    <div class="casevide2 desktopIgnore ">
                         <img src="assets/img/Arrow-4.svg" alt="flèche">
                     </div>
                     <div class="caseimpaire column center acenter">
@@ -87,12 +87,12 @@ background: linear-gradient(90deg, rgba(0,176,68,1) 0%, rgba(0,255,134,1) 100%);
                         <div class="chiffre row center acenter">3</div>
                         <p><strong>VOIR LES JARDINS </strong></p>
                     </div>
-                    <div class="casevide1">
+                    <div class="casevide1 desktopIgnore ">
                         <img src="assets/img/Arrow-7.svg" alt="flèche">
                     </div>
                 </div>
                 <div class="etape row nowrap">
-                    <div class="casevide2">
+                    <div class="casevide2 desktopIgnore ">
                         <img src="assets/img/Arrow-4.svg" alt="flèche">
                     </div>
                     <div class="caseimpaire column center acenter">

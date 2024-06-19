@@ -34,18 +34,21 @@
     }
 
     .fondv{
-        background-color: var(--col-vertF);
+        background: rgb(0,176,68);
+        background: linear-gradient(90deg, rgba(0,176,68,1) 0%, rgba(0,255,134,1) 100%); 
         padding: 0;
     }
     
     .fondvio{
-        background-color: var(--col-violet);
+        background: rgb(78,19,124);
+background: linear-gradient(90deg, rgba(78,19,124,1) 0%, rgba(143,0,255,1) 100%);
      
         padding: 0;
     }
     
     .fondo{
-        background-color: var(--col-orange);
+        background: rgb(176,99,0);
+background: linear-gradient(90deg, rgba(176,99,0,1) 0%, rgba(255,130,0,1) 100%);
      
         padding: 0;
     }
@@ -74,12 +77,17 @@
         margin: 0 !important;
     }
     main {
-        border-radius: 25px 25px 0 0;
+        border-radius:   0;
         background-color: white;
         top: 10dvh;
         width: auto;
         min-height: 90dvh;
        
+    }
+
+    
+    .block1 a{
+        width: 100%;
     }
 }
 
@@ -281,9 +289,6 @@ nav.row.center.acenter.space-around a {
     margin-bottom: 5vh;
 }
 
-.block1 a{
-    width: 100%;
-}
 
 .navblock{
     width: 100%;

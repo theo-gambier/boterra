@@ -136,7 +136,8 @@ foreach ($jardins as $jardin)
 
     </style>
 </head>
-<body>
+<body style="background: rgb(0,176,68);
+background: linear-gradient(90deg, rgba(0,176,68,1) 0%, rgba(0,255,134,1) 100%);">
 <?php
         require('../../assets/pages/menu.php')
     ?>

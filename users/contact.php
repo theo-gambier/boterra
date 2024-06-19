@@ -27,7 +27,8 @@ if (isset($_SESSION['user_id']))
         }
     </style>
 </head>
-<body>
+<body style="background: rgb(176,99,0);
+background: linear-gradient(90deg, rgba(176,99,0,1) 0%, rgba(255,130,0,1) 100%);">
 <?php
 require_once '../assets/pages/menu.php';
 ?>
